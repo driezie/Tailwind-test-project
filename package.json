@@ -1,0 +1,24 @@
+{
+  "name": "project-w7-keuzeproject",
+  "version": "1.0.0",
+  "description": "https://driezie.github.io/Project-W7-Keuzeproject/",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./public/input.css -o ./public/css/main.css",
+    "watch": "tailwindcss -i ./public/input.css -o ./public/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driezie/Project-W7-Keuzeproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/driezie/Project-W7-Keuzeproject/issues"
+  },
+  "homepage": "https://github.com/driezie/Project-W7-Keuzeproject#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.3"
+  }
+}
